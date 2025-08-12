@@ -1,4 +1,4 @@
-# Problem 07
+# Problem 06
 
 
 Write a C program that takes a year as input from the user and determines whether the year is a leap year or not.
@@ -15,4 +15,4 @@ Print “[Year] is a Leap Year” if the year is a leap year; otherwise, print �
 <b>Output<b><br>
 <pre>2024 is a Leap Year</pre>
 <b>Note<b><br>
-Use if...else or Nested if...else
+Use if...else or nested if...else
