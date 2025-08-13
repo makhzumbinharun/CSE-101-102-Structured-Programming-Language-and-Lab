@@ -16,7 +16,7 @@ int main() {
             break;
 
             default:
-            printf("Neither Even nor Odd");
+            printf("Neither Even nor Odd!");
             break;
     }
 
