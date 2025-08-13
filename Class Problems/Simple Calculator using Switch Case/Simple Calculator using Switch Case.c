@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+
 int main() {
     double X, Y;
     char operator;
@@ -35,10 +37,13 @@ int main() {
             break;
         
         case '%':
-            // If you want to use modulo, cast X and Y to int
             printf("Result: %.0lf %% %.0lf = %.0lf\n", X, Y, (int)X % (int)Y);
             break;
-            
+            /* 
+            case '%':
+            printf("Result: %.0lf %% %.0lf = %.0lf\n", X, Y, fmod(X,Y));
+            break;
+            */
         default:
             printf("Invalid operator!\n");
             break;
@@ -46,3 +51,6 @@ int main() {
 
     return 0;
 }
+
+
+
