@@ -35,15 +35,16 @@ int main() {
                 printf("Result: %.2lf / %.2lf = %.2lf\n", X, Y, X / Y);
             }
             break;
-        
-        case '%':
+        /*
+            case '%':
             printf("Result: %.0lf %% %.0lf = %.0lf\n", X, Y, (int)X % (int)Y);
-            break;
-            /* 
+            break; 
+            */
+
             case '%':
             printf("Result: %.0lf %% %.0lf = %.0lf\n", X, Y, fmod(X,Y));
             break;
-            */
+    
         default:
             printf("Invalid operator!\n");
             break;
@@ -51,6 +52,3 @@ int main() {
 
     return 0;
 }
-
-
-
