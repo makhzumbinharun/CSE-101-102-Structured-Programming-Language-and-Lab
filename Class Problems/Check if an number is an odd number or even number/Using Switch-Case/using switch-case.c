@@ -10,10 +10,17 @@ int main() {
         case 1:
             printf("Even");
             break;
+
         case 0:
             printf("Odd");
             break;
+
+            default:
+            printf("Neither Even nor Odd");
+            break;
     }
+
+
 
     return 0;
 }
