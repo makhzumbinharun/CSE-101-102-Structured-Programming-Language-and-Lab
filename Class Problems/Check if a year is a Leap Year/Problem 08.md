@@ -1,4 +1,4 @@
-# Problem 06
+# Problem 08
 
 
 Write a C program that takes a year as input from the user and determines whether the year is a leap year or not.
