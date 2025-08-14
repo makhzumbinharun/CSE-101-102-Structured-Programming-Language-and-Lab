@@ -1,4 +1,4 @@
-# Problem 11
+# Problem 12
 
 Write a C program that takes two integer values as input from the user and prints the sum of all the numbers between them (including both values). 
 
