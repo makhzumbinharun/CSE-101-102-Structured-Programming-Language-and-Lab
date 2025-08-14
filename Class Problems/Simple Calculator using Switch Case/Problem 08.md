@@ -1,4 +1,4 @@
-# Problem 07
+# Problem 08
 
 Write a C program to create a simple calculator using a switch-case statement.
 
