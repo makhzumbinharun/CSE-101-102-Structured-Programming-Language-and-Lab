@@ -1,4 +1,4 @@
-# Problem 12
+# Problem 11
 
 Write a C program that takes one number as input from the user and prints its multiplication table using a loop.
 
