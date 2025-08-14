@@ -1,4 +1,4 @@
-# Problem 01
+# Problem 03
 
 Write a C program to input the number of days from the user and convert it into years, weeks, and days.
 Explain how to convert days into years and weeks in C programming, and describe the logic used to perform this conversion.
