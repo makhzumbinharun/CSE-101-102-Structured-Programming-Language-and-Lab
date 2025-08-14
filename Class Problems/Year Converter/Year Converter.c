@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main () {
+int main() {
     int total_days, years, weeks, days, remaining_days;
 
     // Input number of days from user
@@ -8,7 +8,7 @@ int main () {
     scanf("%d", &total_days);
 
     // Calculate years
-    years = total_days/365;
+    years = total_days / 365;
 
     // Calculate remaining days after extracting years
     remaining_days = total_days % 365;
