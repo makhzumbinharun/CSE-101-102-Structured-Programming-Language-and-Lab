@@ -1,16 +1,16 @@
 #include<stdio.h>
 
 int main() {
-int N, FACT=1;
+    int N, FACTORIAL = 1;
 
-scanf("%d",&N);
+    printf("Enter the value of N: ");
+    scanf("%d", &N);
 
-for(int=1; i<=N; i++) {
-FACT*=i;
-}
+    for (int i = 1; i <= N; i++) {
+        FACTORIAL *= i;
+    }
 
-printf("%d", FACT);
+    printf("Factorial of %d is: %d", N, FACTORIAL);
 
-return 0;
-
+    return 0;
 }
