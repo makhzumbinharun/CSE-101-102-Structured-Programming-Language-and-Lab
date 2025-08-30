@@ -2,7 +2,7 @@
 
 int main() {
     int N, Remainder, Reverse=0;
-    printf("Enter a Number:");
+    printf("Enter a Number: ");
     scanf("%d", &N);
 
     while(N!=0) {
