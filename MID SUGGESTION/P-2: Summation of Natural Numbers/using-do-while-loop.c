@@ -9,7 +9,7 @@ int main() {
         i++;
     }
     while(i<=N);
-    printf("Sumation of all Natural Numbers from 1 to N: %d", SUM);
+    printf("Summation of all Natural Numbers from 1 to N: %d", SUM);
     
     return 0;
 }
