@@ -5,10 +5,11 @@ int main() {
     printf("Enter N: ");
     scanf("%d", &N);
     while(i<=N){
-        if(i%2==0 && i%5==0)
+        if(i%2==0 && i%5==0){
             SUM+=i;
+        }
         i++;
     }
-    printf("Summation of Natural Numbers from 1 to N: %d", SUM);
+    printf("Summation:%d", SUM);
     return 0;
 }
