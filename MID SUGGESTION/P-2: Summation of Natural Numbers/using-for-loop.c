@@ -7,7 +7,7 @@ int main() {
     for(i=1; i<=N; i++){
         SUM+=i;
     }
-    printf("Sumation of all Natural Numbers from 1 to N: %d", SUM);
+    printf("Summation of all Natural Numbers from 1 to N: %d", SUM);
     
     return 0;
 }
