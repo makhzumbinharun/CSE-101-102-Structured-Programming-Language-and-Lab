@@ -8,7 +8,7 @@ int main() {
         if(i%2==0 && i%5==0)
             SUM+=i;
     }
-    printf("Summation of Natural Numbers from 1 to N: %d", SUM);
+    printf("Summation:%d", SUM);
     
     return 0;
 }
