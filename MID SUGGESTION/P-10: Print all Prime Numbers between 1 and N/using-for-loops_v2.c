@@ -1,4 +1,3 @@
-//10.Write a C program to print all Prime numbers between 1 to n.
 #include <stdio.h>
 
 int main() {
