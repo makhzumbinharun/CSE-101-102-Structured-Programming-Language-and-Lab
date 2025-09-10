@@ -8,7 +8,7 @@ int main() {
     printf("Enter the Second Number: ");
     scanf("%d", &B);
     
-    printf("Select an operator:\n 1. + \n 2. - \n 3. * \n 4. / \n");
+    printf("Select an operator ( +, -,  *, /): ");
     scanf(" %c", &O);
     
     switch(O){
