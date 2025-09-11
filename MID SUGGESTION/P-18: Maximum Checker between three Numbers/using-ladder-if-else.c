@@ -12,7 +12,7 @@ int main() {
     
     if(A>B && A>C)
         printf("%d is the Maximum Number.\n", A);
-    else if(B>B && B>C)
+    else if(B>A && B>C)
         printf("%d is the Maximum Number.\n", A);
     else
         printf("%d is the Maximum Number.\n", C);
