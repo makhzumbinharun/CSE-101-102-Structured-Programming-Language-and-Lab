@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    char A;
+    char C;
     printf("Enter a Character: ");
-    scanf(" %c", &A);
+    scanf(" %c", &C);
     
-    if(A>=65 && A<=90)
-        printf("%c is an uppercase.\n", A);
-    else if(A>=97 && A<=122)
-        printf("%c is an lowercase.\n", A);
+    if(C>=65 && C<=90)
+        printf("%c is an uppercase.\n", C);
+    else if(C>=97 && C<=122)
+        printf("%c is an lowercase.\n", C);
     else
         printf("Error: Invalid!\n");
 
