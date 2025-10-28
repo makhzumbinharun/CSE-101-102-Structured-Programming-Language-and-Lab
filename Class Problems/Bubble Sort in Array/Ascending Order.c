@@ -25,7 +25,7 @@ for(int i=0; i<N-1; i++){
          }
      }
  }
-    printf("After Sorting: ");
+    printf("After Sorting (Ascending): ");
     for(int i=0; i<N; i++) {
         printf("%d ", arr[i]);
     }
