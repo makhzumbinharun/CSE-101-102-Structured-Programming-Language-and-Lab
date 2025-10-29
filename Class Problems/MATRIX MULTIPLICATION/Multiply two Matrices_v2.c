@@ -32,20 +32,16 @@ int main() {
             scanf("%d", &MAT2[i][j]);
         }
     }
-
-    // Initialize result matrix to 0
-    for (int i = 0; i < R1; i++) {
-        for (int j = 0; j < C2; j++) {
-            MAT[i][j] = 0;
-        }
-    }
-
-    // Matrix multiplication logic
-    for (int i = 0; i < R1; i++) {
-        for (int j = 0; j < C2; j++) {
-            for (int k = 0; k < C1; k++) {
-                MAT[i][j] += MAT1[i][k] * MAT2[k][j];
+    
+    int sum=0;
+    // Matrix multiplication
+    for(int i=0; i<R1; i++) {
+        for(int j=0; j<C2; j++) {
+            for(int k=0; k<C1; k++) {
+                sum+=MAT1[i][k]*MAT2[k][j];
             }
+            MAT[i][j]=sum;
+            sum=0;
         }
     }
 
