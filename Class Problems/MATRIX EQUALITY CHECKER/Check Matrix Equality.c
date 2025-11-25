@@ -10,7 +10,7 @@ int main() {
         return 0;
     }
 
-    int MAT1[R1][C1], MAT2[R2][C2], MAT[R1][C2];
+    int MAT1[R1][C1], MAT2[R2][C2];
     for(int i=0; i<R1; i++) {
         for(int j=0; j<C1; j++) {
             scanf("%d", &MAT1[i][j]);
