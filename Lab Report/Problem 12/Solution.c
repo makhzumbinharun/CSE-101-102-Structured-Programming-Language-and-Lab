@@ -1,44 +1,42 @@
 #include <stdio.h>
 
 int main() {
-    int R, C;
-    printf("Enter number of rows and columns: ");
-    scanf("%d %d", &R, &C);
+    int R1, C1, R2, C2;
+    scanf("%d %d", &R1, &C1);
+    scanf("%d %d", &R2, &C2);
 
-    int A[R][C], B[R][C];
-    int i, j, flag = 1;
+    if(C1!=R2) {
+        printf("Matrices cannot be compared for equality (different dimensions)\n");
+        return 0;
+    }
 
-    // Input matrix 1
-    printf("Input elements of matrix1:\n");
-    for(i = 0; i < R; i++) {
-        for(j = 0; j < C; j++) {
-            scanf("%d", &A[i][j]);
+    int MAT1[R1][C1], MAT2[R2][C2];
+    for(int i=0; i<R1; i++) {
+        for(int j=0; j<C1; j++) {
+            scanf("%d", &MAT1[i][j]);
+        }
+    }
+    for(int i=0; i<R2; i++) {
+        for(int j=0; j<C2; j++) {
+            scanf("%d", &MAT2[i][j]);
         }
     }
 
-    // Input matrix 2
-    printf("Input elements of matrix2:\n");
-    for(i = 0; i < R; i++) {
-        for(j = 0; j < C; j++) {
-            scanf("%d", &B[i][j]);
-        }
-    }
-
-    // Compare matrices
-    for(i = 0; i < R; i++) {
-        for(j = 0; j < C; j++) {
-            if(A[i][j] != B[i][j]) {
-                flag = 0;
+     int equal=1;
+    for(int i=0; i<R1; i++) {
+        for(int j=0; j<C1; j++) {
+            if(MAT1[i][j]!=MAT2[i][j]) {
+                equal=0;
                 break;
             }
         }
-        if(flag == 0) break;
+        if(equal==0) break;
     }
 
-    if(flag == 1)
-        printf("Both matrices are equal\n");
+    if(equal)
+        printf("Matrices are equal!\n");
     else
-        printf("Matrices are not equal\n");
+        printf("Matrices are not equal!\n");
 
     return 0;
 }
