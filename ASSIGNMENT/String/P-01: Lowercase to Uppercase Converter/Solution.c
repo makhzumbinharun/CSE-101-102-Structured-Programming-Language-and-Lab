@@ -12,7 +12,7 @@ void mystrupper(char str[]) {
 
 int main() {
     char str[101];
-
+    printf("Enter a String: ");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';
 
