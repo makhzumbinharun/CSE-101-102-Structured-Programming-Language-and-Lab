@@ -21,7 +21,7 @@ int main() {
         return 0;
     }
 
-    int MAT1[R1][C1], MAT2[R2][C2], MAT[R1][C2];
+    int MAT1[R1][C1], MAT2[R2][C2], PMAT[R1][C2];
     
     scanmat(R1, C1, MAT1);
 	scanmat(R2, C2, MAT2);
@@ -29,17 +29,17 @@ int main() {
 
     for(int i=0; i<R1; i++) {
         for(int j=0; j<C2; j++) {
-            MAT[i][j]=0;
+            PMAT[i][j]=0;
             for(int k=0; k<C1; k++) {
-                MAT[i][j]+=MAT1[i][k]*MAT2[k][j];
+                PMAT[i][j]+=MAT1[i][k]*MAT2[k][j];
             }
         }
     }
 
-
+    printf("Product of Matrices:\n");
     for(int i=0; i<R1; i++) {
         for (int j=0; j<C2; j++) {
-            printf("%4d", MAT[i][j]);
+            printf("%4d", PMAT[i][j]);
         }
         printf("\n");
     }
