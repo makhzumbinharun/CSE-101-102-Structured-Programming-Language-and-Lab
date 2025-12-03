@@ -18,7 +18,7 @@ int main() {
     char filename[1000] = "file3.txt";
 
     // Open input file in read mode
-    fpt_in = fopen("file3.txt", "r");
+    fpt_in = fopen(filename, "r");
     if (fpt_in == NULL) {
         printf("ERROR: Cannot open file %s\n", filename);
         return 1;
