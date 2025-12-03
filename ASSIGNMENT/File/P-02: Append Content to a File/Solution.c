@@ -11,7 +11,7 @@ int main() {
     fpt = fopen(filename, "a");
     if (fpt == NULL) { 
         printf("Error: Cannot open file.\n");
-        return 1;
+        return 0;
     }
 
     printf("Enter text to append: ");
@@ -19,7 +19,6 @@ int main() {
     fgets(content, sizeof(content), stdin);
 
     fputs(content, fpt);
-
     fclose(fpt);
 
     printf("Content appended successfully.\n");
