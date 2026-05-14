@@ -34,3 +34,9 @@ Feel free to explore the repository! I am always eager to connect with peers and
 
 ---
 *Maintained with 💡 as a foundation for software engineering.*
+---
+<div align="center">
+
+### ⭐ If this repository helps you, consider giving it a star!
+
+</div>
